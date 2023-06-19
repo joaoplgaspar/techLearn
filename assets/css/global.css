@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Jost:wght@400;700&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding and reset fonts */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+*::before,
+*::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "JetBrains Mono";
+}
+
+header .header_head {
+  background: #000826;
+  color: #FFF;
+  padding: 2.6rem 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header_head h1 {
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+header .header_content {
+  height: 100vh;
+  background-image: url(../images/background_desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .header_content .img_text_header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  height: 100%;
+}
+header .header_content .img_text_header img {
+  justify-self: center;
+}
+header .header_content .img_text_header .header_text {
+  color: #FFF;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .header_content .img_text_header .header_text h2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+header .header_content .img_text_header .header_text p {
+  font-size: 1.8rem;
+}
+header .header_content .img_text_header .header_text .container_buttons_section_select {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 60px;
+  margin-top: 3rem;
+}
+header .header_content .img_text_header .header_text .container_buttons_section_select button {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  transition: 500ms;
+  background: #d75600;
+}
+header .header_content .img_text_header .header_text .container_buttons_section_select button i {
+  margin-left: 1rem;
+}
+header .header_content .img_text_header .header_text .container_buttons_section_select :nth-child(2) {
+  background: #004bbb;
+}
+header .header_content .img_text_header .header_text .container_buttons_section_select :nth-child(3) {
+  background: #4c0068;
+}
+header .header_content .img_text_header .header_text .container_buttons_section_select button:hover {
+  font-size: 2rem;
+  background: #111111;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .header_content .img_text_header .header_text .container_buttons_section_select button {
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .header_content {
+    padding-inline: 1.4rem;
+  }
+  header .header_content .img_text_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .header_content .img_text_header img {
+    width: 100%;
+    max-width: 328px;
+  }
+  header .header_content .img_text_header .header_text h2 {
+    font-size: 1.8rem;
+  }
+  header .header_content .img_text_header .header_text p {
+    font-size: 1.4rem;
+  }
+  header .header_content .img_text_header .header_text .container_buttons_section_select {
+    flex-wrap: wrap;
+  }
+  header .header_content .img_text_header .header_text .container_buttons_section_select button {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    font-size: 1.4rem;
+  }
+  header .header_content .img_text_header .header_text .container_buttons_section_select button:hover {
+    font-size: 1.45rem;
+  }
+}/*# sourceMappingURL=global.css.map */
