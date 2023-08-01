@@ -13,7 +13,7 @@ TechSafe é um website que tem como objetivo ajudar pessoas leigas a configurare
 <hr>
 
 <div align=center>
-  <img src="https://github.com/joaoplgaspar/techLearn/assets/130015259/72546ca8-a384-4d92-adb8-01de824c8bdc" />
+  <img src="https://github.com/joaoplgaspar/techLearn/assets/130015259/72546ca8-a384-4d92-adb8-01de824c8bdc#vitrinedev" />
 </div>
 
 <hr>
