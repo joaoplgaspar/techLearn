@@ -1,4 +1,4 @@
-<h1> TECHSAFE </h1>
+<h1> TechLearn </h1>
 
 ![Static Badge](https://img.shields.io/badge/Status-_Finalizado-green?style=for-the-badge)
 
@@ -6,7 +6,7 @@ TechSafe é um website que tem como objetivo ajudar pessoas leigas a configurare
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **TECHSAFE**
+| :sparkles: Nome        | **TechLearn**
 | :label: Tecnologias | html5, css3, javascript
 | :rocket: URL         | https://tech-learn.vercel.app
 
@@ -20,7 +20,7 @@ TechSafe é um website que tem como objetivo ajudar pessoas leigas a configurare
 
 ## Resumo do projeto
 
-TechSafe é um projeto que visa ensinar pessoas com mais idade a configurarem seus dispositivos novos ou antigos, e ter consciência em alguns pontos importantes ao ter um dispositivo, como a criação de contas, segurança de dados, problemas técnicos, prevenção de erros e entre outros. O site foi construído de forma intuitiva com várias etapas e com legenda para uma melhor navegação, com cada tópico acompanhado com um vídeo para explicação de quaisquer dúvidas que os usuários venham ter.
+TechLearn é um projeto que visa ensinar pessoas com mais idade a configurarem seus dispositivos novos ou antigos, e ter consciência em alguns pontos importantes ao ter um dispositivo, como a criação de contas, segurança de dados, problemas técnicos, prevenção de erros e entre outros. O site foi construído de forma intuitiva com várias etapas e com legenda para uma melhor navegação, com cada tópico acompanhado com um vídeo para explicação de quaisquer dúvidas que os usuários venham ter.
 
 
 ![techLearnLanding](https://github.com/joaoplgaspar/techLearn/assets/130015259/b75afbef-b5c2-43fe-8dc9-969ce6ffc790)
